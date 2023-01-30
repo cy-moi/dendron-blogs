@@ -1,20 +1,4 @@
-# Dendron Workspace Template for GitHub Pages publishing (via GitHub Actions)
-
-- [View the Demo Website](https://dendronhq.github.io/template.publish.github-action/)
-
-This project is a minimal setup template for publishing a Dendron Workspace to GitHub Pages via GitHub Actions.
-
-Directions on how to use this template are mentioned in:
-- [Dendron Docs: Publishing with GitHub Pages via GitHub Actions](https://wiki.dendron.so/notes/FnK2ws6w1uaS1YzBUY3BR/)
-
-For directions on how to migrate and/or upgrade to the latest version of Dendron:
-- [Dendron Publishing: Migrating and Upgrading](https://wiki.dendron.so/notes/rYbs1qLh9VJBXCJlSzMt4/)
-
-## Other Publishing Paths
-
-- [Share Your Notes Online: Publish Dendron with Netlify and GitHub](https://blog.dendron.so/notes/7h7zZkjF4Yqz8XSrHS1je)
-- [Dendron Docs: Publishing with GitHub Pages (**WITHOUT** GitHub Actions)](https://wiki.dendron.so/notes/yg3EL1x9fEe4NMqxUC3jP/)
-  - We recommend going the GitHub Actions route. If you don't use GitHub Actions, it requires additional steps and maintenance.
+# My Blog Generated from Dendron.
 
 ## Related
 
