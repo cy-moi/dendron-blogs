@@ -24,7 +24,7 @@ workspace:
         -
             fsPath: vault
     journal:
-        dailyDomain: Daily Chores Dump
+        dailyDomain: Chores
         name: journal
         dateFormat: y.MM.dd
         addBehavior: childOfDomain
