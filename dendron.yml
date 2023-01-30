@@ -102,7 +102,7 @@ publishing:
             - vault
     writeStubs: false
     seo:
-        title: Dendron
+        title: Cy Blog
         description: Personal knowledge space
     github:
         enableEditLink: true
