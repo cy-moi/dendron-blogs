@@ -86,7 +86,7 @@ publishing:
     enableMermaid: true
     enablePrettyRefs: true
     enableKatex: true
-    assetsPrefix: /dendron-blogs.github-action
+    assetsPrefix: /dendron-blogs
     copyAssets: true
     siteHierarchies:
         - root
