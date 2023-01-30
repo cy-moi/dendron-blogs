@@ -86,13 +86,13 @@ publishing:
     enableMermaid: true
     enablePrettyRefs: true
     enableKatex: true
-    assetsPrefix: /template.publish.github-action
+    assetsPrefix: /dendron-blogs.github-action
     copyAssets: true
     siteHierarchies:
         - root
     enableSiteLastModified: true
     siteRootDir: docs
-    siteUrl: https://dendronhq.github.io
+    siteUrl: https://cy-moi.github.io
     enableFrontmatterTags: true
     enableHashesForFMTags: false
     enableRandomlyColoredTags: true
