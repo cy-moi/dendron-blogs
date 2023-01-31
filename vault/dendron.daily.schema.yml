@@ -1,8 +1,8 @@
 version: 1
 imports: []
 schemas:
-  - id: Daily Chores Dump
-    title: Daily Chores Dump
+  - id: chores
+    title: Chores
     parent: root
     desc: Identifier that will be used when using 'Lookup (Schema)' command.
     children:
@@ -17,6 +17,6 @@ schemas:
                 children:
                   - pattern: '[0-3][0-9]'
                     template:
-                      id: templates.Daily Chores Dump
+                      id: templates.Chores
                       type: note
                     desc: This pattern matches the DD (day) child hierarchy
