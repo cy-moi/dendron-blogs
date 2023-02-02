@@ -2,9 +2,13 @@
 id: cziki8zxr177n1y8m0q9ki2
 title: Position Based System
 desc: ''
-updated: 1675110518259
+updated: 1675370726777
 created: 1675110307329
 ---
+Learn advanced stuff related to postion based dynamics to universal solvers. I was not particularly good at this topic, but it is super cool!
+
+
+> [[Computer Graphics.universal particles]]
 
 I've always been interested in [this paper](https://mmacklin.com/uppfrta_preprint.pdf).
 

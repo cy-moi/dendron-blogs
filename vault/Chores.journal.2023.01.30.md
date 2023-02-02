@@ -1,8 +1,8 @@
 ---
 id: umg3znex8ac6ty320bj9s5s
-title: '30'
+title: '2023-01-30'
 desc: ''
-updated: 1675113878897
+updated: 1675369905860
 created: 1675113234142
 traitIds:
   - journalNote

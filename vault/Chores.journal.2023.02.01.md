@@ -1,8 +1,8 @@
 ---
 id: 5qc6azxgb81f9x50y8z84ui
-title: '01'
+title: '2023-02-01'
 desc: ''
-updated: 1675290249393
+updated: 1675369896765
 created: 1675209696159
 traitIds:
   - journalNote
