@@ -23,4 +23,20 @@ I also have to start working on gathering datasets and data cleaning.
 
 [[Notes with My Mate.todolist]]
 
+2023.03.01 Update
+
+Researched on [FinBert](https://arxiv.org/pdf/1908.10063.pdf) and [FinBert from HKUST](https://github.com/yya518/FinBERT). Processed some basic disclosure texts with FinBert. 
+
+Our findings: 
+1. FinBert does not actually perform better than Vanilla Bert. 
+2. When the text is long, we split texts use paragraph breaks and calculate weights from the paragraph lenghts. This metric works better than average. It makes much more sense as well.
+
+Next step:
+Extract texts from 10-K and use BERT to extract features from them. To solve our previous issue with data, we found EDGAR which supplies API and online host for all the SEC filings we need and this open-source tool [SEC-EDGAR-text extraction](https://github.com/alions7000/SEC-EDGAR-text) for text extraction for the filings. 
+
+Some other useful links:
+[sec-edgar python library](https://github.com/sec-edgar/sec-edgar)
+
+[python-edgar: master index for edgar](https://github.com/edgarminers/python-edgar)
+
 
