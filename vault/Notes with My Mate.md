@@ -25,7 +25,7 @@ I also have to start working on gathering datasets and data cleaning.
 
 2023.03.01 Update
 
-Researched on [FinBert](https://arxiv.org/pdf/1908.10063.pdf) and [FinBert from HKUST](https://github.com/yya518/FinBERT). Processed some basic disclosure texts with FinBert. 
+Researched on [FinBert](https://arxiv.org/pdf/1908.10063.pdf) and [FinBert from HKUST](https://github.com/yya518/FinBERT). We've also processed some basic disclosure texts with FinBert. This paper [What are You Saying? Using topic to Detect Financial Misreporting](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2803733) can guide us on retrieving misreport judgements from SEC. The author Richard Crowley has done a symposium sharing on using BERT to predict return, which is exactly what we are looking for.
 
 Our findings: 
 1. FinBert does not actually perform better than Vanilla Bert. 
