@@ -1,0 +1,41 @@
+<h1 id="notes-with-my-mate"><a aria-hidden="true" class="anchor-heading icon-link" href="#notes-with-my-mate"></a>Notes with My Mate</h1>
+<p>Our recent topic: textual analysis on Finance and the McDonald word list and NLP.</p>
+<p>I am surpised at how finance people are doing their textual analysis. Of course, all the filings are extremely useful albeit the outdated methods. </p>
+<p><a href="https://www.sciencedirect.com/science/article/pii/S2405918821000131">This AWS paper is pretty nice.</a> Yet,
+my mate said it failed to provide insights on how this would help finding returns. Apparently, the returns are more important than methods to come up with better word lists.</p>
+<p>Here are more to read for me to understand how textual analysis works in finance:</p>
+<p><a href="https://www.sciencedirect.com/science/article/pii/S2405918822000046">Some lit review on advanced textual analysis</a></p>
+<p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2504147">Another important work from McDonald</a></p>
+<p>I also have to start working on gathering datasets and data cleaning.</p>
+<p><a href="/dendron-blogs/notes/iiiix2o056e8fu96wjmewxm">todolist</a></p>
+<hr>
+<p>2023.03.01 Update</p>
+<p>Researched on <a href="https://arxiv.org/pdf/1908.10063.pdf">FinBert</a> and <a href="https://github.com/yya518/FinBERT">FinBert from HKUST</a>. We've also processed some basic disclosure texts with FinBert. This paper <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2803733">What are You Saying? Using topic to Detect Financial Misreporting</a> can guide us on retrieving misreport judgements from SEC. The author Richard Crowley has done a symposium sharing on using BERT to predict return, which is exactly what we are looking for.</p>
+<p>Our findings: </p>
+<ol>
+<li>FinBert does not actually perform better than Vanilla Bert. </li>
+<li>When the text is long, we split texts use paragraph breaks and calculate weights from the paragraph lenghts. This metric works better than average. It makes much more sense as well.</li>
+</ol>
+<p>Next step:
+Extract texts from 10-K and use BERT to extract features from them. To solve our previous issue with data, we found EDGAR which supplies API and online host for all the SEC filings we need and this open-source tool <a href="https://github.com/alions7000/SEC-EDGAR-text">SEC-EDGAR-text extraction</a> for text extraction for the filings. </p>
+<p>Some other useful links:
+<a href="https://github.com/sec-edgar/sec-edgar">sec-edgar python library</a></p>
+<p><a href="https://github.com/edgarminers/python-edgar">python-edgar: master index for edgar</a></p>
+<hr>
+<p>2023.03.05 Update</p>
+<p>SEC filings make sense because of the tables and numbers, not particularly the texts. So we have to use number-aware BERT, such as <a href="https://huggingface.co/nlpaueb/sec-bert-base">SEC-BERT</a>. Some other people fine-tuned it on <a href="https://huggingface.co/nickmuchi/sec-bert-finetuned-finance-classification">classification task</a>.</p>
+<p>Crowley used <a href="https://nlp.stanford.edu/software/openie.html">OpenIE</a> to extract information and ontology from the texts. But probably going on step further, making it a knowledge graph and add weights on the edges would be more helpful.</p>
+<p>So with this inspiration, we are looking at some new directions today:</p>
+<p><a href="https://github.com/jiesutd/Text-Attention-Heatmap-Visualization">heatmap generation</a></p>
+<p><a href="https://github.com/danilo-dessi/skg">knowledge graph skg</a></p>
+<p><a href="https://github.com/rossanez/KGen">knowledge graph kgen</a></p>
+<p><a href="https://github.com/AnjaneyaTripathi/knowledge_graph">Bert + Knowledge Graph on legal data</a></p>
+<p><a href="https://github.com/d1egoprog/Text2KG">Text to KG</a></p>
+<p><a href="https://github.com/rutvik5/knowledge-graph">From unstructured text to knowledge graph</a></p>
+<p><a href="https://github.com/varunshenoy/GraphGPT">graphGPT</a></p>
+<p><a href="https://stanfordnlp.github.io/CoreNLP/demo.html">Standford CoreNLP</a></p>
+<hr>
+<strong>Children</strong>
+<ol>
+<li><a href="/dendron-blogs/notes/iiiix2o056e8fu96wjmewxm">todolist</a></li>
+</ol>

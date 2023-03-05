@@ -1,0 +1,30 @@
+<h1 id="universal-particles"><a aria-hidden="true" class="anchor-heading icon-link" href="#universal-particles"></a>Universal Particles</h1>
+<p>Basically, it is "a unified solver capable of simulating gases, liquids, deformable solids, rigid bodies, and cloth, interacting with one another in real-time."</p>
+<h3 id="pbd---position-based-dynamics"><a aria-hidden="true" class="anchor-heading icon-link" href="#pbd---position-based-dynamics"></a>PBD - <a href="https://matthias-research.github.io/pages/publications/posBasedDyn.pdf">Position Based Dynamics</a></h3>
+<blockquote>
+<p>Typically positions are updated after each constraint is processed, and after a number of iterations a change in velocity is computed according to the total constraint delta: delta_x = delta_x/delta_t.</p>
+</blockquote>
+<h3 id="rigid-body---rigid-shape-matching"><a aria-hidden="true" class="anchor-heading icon-link" href="#rigid-body---rigid-shape-matching"></a>Rigid Body - <a href="https://matthias-research.github.io/pages/publications/orientedParticles.pdf">Rigid Shape matching</a></h3>
+<blockquote>
+<p>Shapes are created by first performing solid voxelization of a closed triangle mesh and placing particles at occupied cells interior to the shape. </p>
+</blockquote>
+<blockquote>
+<p>Assign all particles in the shape the same phase-identifier, disable collision between them, and add a shape-matching constraint to the system.</p>
+</blockquote>
+<h3 id="sdf---signed-distance-field"><a aria-hidden="true" class="anchor-heading icon-link" href="#sdf---signed-distance-field"></a>SDF - Signed Distance Field</h3>
+<blockquote>
+<p>Sample the field function onto each particle belonging to a rigid shape. </p>
+</blockquote>
+<blockquote>
+<p>Re-use all the machinery of the particle-particle collision detection to resolve deeper overlaps between shapes. </p>
+</blockquote>
+<blockquote>
+<p>detect overlaps between particles with distance <span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">∣</mi><mi>x</mi><mi>i</mi><mo>−</mo><mi>x</mi><mi>j</mi><mi mathvariant="normal">∣</mi><mo>&#x3C;</mo><mi>r</mi></mrow><annotation encoding="application/x-tex">|xi − xj | &#x3C; r</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">∣</span><span class="mord mathnormal">x</span><span class="mord mathnormal">i</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">x</span><span class="mord mathnormal" style="margin-right:0.05724em;">j</span><span class="mord">∣</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">&#x3C;</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">r</span></span></span></span></span>. As the contact normal we choose the SDF gradient corresponding to the minimum translation distance, <span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>d</mi><mo>=</mo><mi>m</mi><mi>i</mi><mi>n</mi><mo stretchy="false">(</mo><mi mathvariant="normal">∣</mi><mi>φ</mi><mi>i</mi><mi mathvariant="normal">∣</mi><mo separator="true">,</mo><mi mathvariant="normal">∣</mi><mi>φ</mi><mi>j</mi><mi mathvariant="normal">∣</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">d = min(|φi|, |φj |)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">d</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">min</span><span class="mopen">(</span><span class="mord">∣</span><span class="mord mathnormal">φ</span><span class="mord mathnormal">i</span><span class="mord">∣</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">∣</span><span class="mord mathnormal">φ</span><span class="mord mathnormal" style="margin-right:0.05724em;">j</span><span class="mord">∣</span><span class="mclose">)</span></span></span></span></span>.</p>
+</blockquote>
+<p><span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>φ</mi></mrow><annotation encoding="application/x-tex">φ</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">φ</span></span></span></span></span> is the magnitude of the SDF.</p>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/dendron-blogs/notes/cziki8zxr177n1y8m0q9ki2">Position Based System</a></li>
+<li><a href="/dendron-blogs/notes/hhlt1oum2s23ebdyunm4qrf">2023-02-02</a></li>
+</ul>

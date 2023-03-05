@@ -1,0 +1,247 @@
+{
+  "roots": [
+    {
+      "key": "wn8PE1RhG0znK1alrGFYv",
+      "title": "Cy Blogs",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "navExclude": false,
+      "children": [
+        {
+          "key": "wfsauow9ogy3grk51rx612p",
+          "title": "Chores",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "et5r9vb7bmy8ppx51go0ft6",
+              "title": "journal",
+              "icon": "plusOutlined",
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": [
+                {
+                  "key": "xsssoh1p8bv0cbmrztr46q5",
+                  "title": "2023",
+                  "icon": "plusOutlined",
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": [
+                    {
+                      "key": "o4o0c3ewnsreiucmzft6y69",
+                      "title": "01",
+                      "icon": "plusOutlined",
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "vault",
+                      "navExclude": false,
+                      "children": [
+                        {
+                          "key": "umg3znex8ac6ty320bj9s5s",
+                          "title": "2023-01-30",
+                          "icon": null,
+                          "hasTitleNumberOutlined": false,
+                          "vaultName": "vault",
+                          "navExclude": false,
+                          "children": []
+                        },
+                        {
+                          "key": "kjoldh7hdyk63rwl4azarbg",
+                          "title": "2023-01-31",
+                          "icon": null,
+                          "hasTitleNumberOutlined": false,
+                          "vaultName": "vault",
+                          "navExclude": false,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "key": "hnph1fomeanl6yro79qd57y",
+                      "title": "02",
+                      "icon": "plusOutlined",
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "vault",
+                      "navExclude": false,
+                      "children": [
+                        {
+                          "key": "5qc6azxgb81f9x50y8z84ui",
+                          "title": "2023-02-01",
+                          "icon": null,
+                          "hasTitleNumberOutlined": false,
+                          "vaultName": "vault",
+                          "navExclude": false,
+                          "children": []
+                        },
+                        {
+                          "key": "hhlt1oum2s23ebdyunm4qrf",
+                          "title": "2023-02-02",
+                          "icon": null,
+                          "hasTitleNumberOutlined": false,
+                          "vaultName": "vault",
+                          "navExclude": false,
+                          "children": []
+                        },
+                        {
+                          "key": "ym40x2m5xqcteyqgjse59ok",
+                          "title": "2023-02-04",
+                          "icon": null,
+                          "hasTitleNumberOutlined": false,
+                          "vaultName": "vault",
+                          "navExclude": false,
+                          "children": []
+                        },
+                        {
+                          "key": "5vuyjw5xs7axya9laphm2m1",
+                          "title": "2023-02-08",
+                          "icon": null,
+                          "hasTitleNumberOutlined": false,
+                          "vaultName": "vault",
+                          "navExclude": false,
+                          "children": []
+                        },
+                        {
+                          "key": "kiekrrjg8tmccnkz866azvg",
+                          "title": "2023-02-10",
+                          "icon": null,
+                          "hasTitleNumberOutlined": false,
+                          "vaultName": "vault",
+                          "navExclude": false,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "xchs0m15uo5tnn2psd6a2ct",
+          "title": "Computer Graphics",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "cziki8zxr177n1y8m0q9ki2",
+              "title": "Position Based System",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "isi9qi80jvtfqv94g6cmv93",
+              "title": "Universal Particles",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "mfjohhuwxr5b8xf1nr42tcm",
+              "title": "X-INF585 Notes",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "e15sw2ol9d3xec39qk81p4z",
+          "title": "NLP",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "7a9h7i5bpp4tbx6qpy68hd6",
+              "title": "GSLM",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "c77uo335fzt81rmc69hw9x0",
+          "title": "Notes with My Mate",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "iiiix2o056e8fu96wjmewxm",
+              "title": "todolist",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "syfz4mn1awpil68zjqzw14z",
+          "title": "Templates",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "af1m2zl090isxdymvwov3we",
+              "title": "Daily Chores Dump",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "child2parent": {
+    "403": null,
+    "wn8PE1RhG0znK1alrGFYv": null,
+    "wfsauow9ogy3grk51rx612p": "wn8PE1RhG0znK1alrGFYv",
+    "et5r9vb7bmy8ppx51go0ft6": "wfsauow9ogy3grk51rx612p",
+    "xsssoh1p8bv0cbmrztr46q5": "et5r9vb7bmy8ppx51go0ft6",
+    "hnph1fomeanl6yro79qd57y": "xsssoh1p8bv0cbmrztr46q5",
+    "kiekrrjg8tmccnkz866azvg": "hnph1fomeanl6yro79qd57y",
+    "5vuyjw5xs7axya9laphm2m1": "hnph1fomeanl6yro79qd57y",
+    "ym40x2m5xqcteyqgjse59ok": "hnph1fomeanl6yro79qd57y",
+    "hhlt1oum2s23ebdyunm4qrf": "hnph1fomeanl6yro79qd57y",
+    "5qc6azxgb81f9x50y8z84ui": "hnph1fomeanl6yro79qd57y",
+    "o4o0c3ewnsreiucmzft6y69": "xsssoh1p8bv0cbmrztr46q5",
+    "kjoldh7hdyk63rwl4azarbg": "o4o0c3ewnsreiucmzft6y69",
+    "umg3znex8ac6ty320bj9s5s": "o4o0c3ewnsreiucmzft6y69",
+    "syfz4mn1awpil68zjqzw14z": "wn8PE1RhG0znK1alrGFYv",
+    "af1m2zl090isxdymvwov3we": "syfz4mn1awpil68zjqzw14z",
+    "c77uo335fzt81rmc69hw9x0": "wn8PE1RhG0znK1alrGFYv",
+    "iiiix2o056e8fu96wjmewxm": "c77uo335fzt81rmc69hw9x0",
+    "e15sw2ol9d3xec39qk81p4z": "wn8PE1RhG0znK1alrGFYv",
+    "7a9h7i5bpp4tbx6qpy68hd6": "e15sw2ol9d3xec39qk81p4z",
+    "xchs0m15uo5tnn2psd6a2ct": "wn8PE1RhG0znK1alrGFYv",
+    "mfjohhuwxr5b8xf1nr42tcm": "xchs0m15uo5tnn2psd6a2ct",
+    "isi9qi80jvtfqv94g6cmv93": "xchs0m15uo5tnn2psd6a2ct",
+    "cziki8zxr177n1y8m0q9ki2": "xchs0m15uo5tnn2psd6a2ct"
+  }
+}
